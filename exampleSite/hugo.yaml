@@ -115,7 +115,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Riti Desai's Profile" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -134,113 +134,93 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
-    image: /images/hero.svg
+    title: "Riti Desai."
+    subtitle: "Data enthusiast driven by curiosity and impact"
+    content: "A data-driven thinker. I enjoy exploring datasets, building models, and discovering the insights hidden within."
+    image: "/images/Riti_Portfolio_picture.png"
+
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "/resume.pdf"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/riti-desai/
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/rdesa020
+
 
   # About
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
-    content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+    content: |-
+      Hello! I'm Riti Desai, a Data Science major at the University of California, Riverside, with a strong passion for computer science, statistics, software development, and technology. I have gained experience through internships and hands-on projects, where I can apply my technical skills in Python, SQL, C++, R, and user interface design. My expertise in data manipulation, analysis, and NLP has been honed through internships and research projects, and I am excited to contribute to data-driven organizations that prioritize innovation and impact.
+
+      I am currently working on a research project with Professor Mariam Salloum at University of California, Riverside.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few technologies I have experience with:"
       items:
-        - "HTML"
+        - "Python"
+        - "SQL"
+        - "C++"
         - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Version Control"
+        - "Javascript"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Software Developer"
-        company: "Facebook"
-        companyUrl: "https://example.com"
-        date: "Jan 2022 - present"
+      - job: "NLP Risk Adjustment Intern"
+        company: "Edifecs"
+        companyUrl: "https://www.edifecs.com/"
+        date: "June 2024 - August 2024"
+        featuredLink:
+          enable: true
+          name: "View the Certificate"
+          url: "/Edifecs.pdf"
+        content: "As an intern at Edifecs, I developed a Python and HTML-based web application for analyzing Excel data through visualizations, collaborated with the ML team to build a Llama3-powered chatbot for product query resolution, and improved NLP annotators using SQL and Regex within the UIMA framework to enhance information extraction from system-generated documents."
+
+      - job: "Student Research Assistant"
+        company: "UCR"
+        companyUrl: "https://ucr.edu"
+        date: "March 2025 - Present"
+
+        info:
+          enable: true
+          content: I worked as an Undergrad Research Fellow.
+        content: |
+          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+
+          - Lead backend developer for a product.
+          - Created a frontend design for a product.
+      - job: "Student Research Assistant"
+        company: "UCR"
+        companyUrl: "https://ucr.edu"
+        date: "June 2023 - August 2023"
         featuredLink:
           enable: true
           name: "View the project"
-          url: "https://example.com"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
-      - job: "Software Developer"
-        company: "Amazon"
-        companyUrl: "https://example.com"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          url: "/DataScience_Fellowship.pdf"
         info:
           enable: true
-          content: I worked as a software developer for more than one year in Amazon.
+          content: I worked as an Undergrad Research Fellow.
         content: |
           I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
           - Lead backend developer for a product.
           - Created a frontend design for a product.
 
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   # Education
   education:
