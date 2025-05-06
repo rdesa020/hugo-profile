@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://ritidesai.netlify.app"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Riti's Portfolio"
 theme: hugo-profile
 
 outputs:
@@ -28,18 +28,8 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+
+
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -62,7 +52,7 @@ params:
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -115,8 +105,8 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Riti Desai's Profile" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    brandName: "Riti Desai's Portfolio" # Brand name for the brand | default is the title variable
+    disableSearch: true
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
@@ -127,7 +117,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -137,10 +127,11 @@ params:
     title: "Riti Desai."
     subtitle: "Data enthusiast driven by curiosity and impact"
     content: "A data-driven thinker. I enjoy exploring datasets, building models, and discovering the insights hidden within."
-    image: "/images/Riti_Portfolio_picture.png"
+    image: "/static/images/Riti_Portfolio_picture.jpg"
+    imageShape: "side"  # or "side", depending on the theme options
 
-    bottomImage:
-      enable: true
+    #bottomImage:
+      #enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
@@ -164,7 +155,11 @@ params:
     content: |-
       Hello! I'm Riti Desai, a Data Science major at the University of California, Riverside, with a strong passion for computer science, statistics, software development, and technology. I have gained experience through internships and hands-on projects, where I can apply my technical skills in Python, SQL, C++, R, and user interface design. My expertise in data manipulation, analysis, and NLP has been honed through internships and research projects, and I am excited to contribute to data-driven organizations that prioritize innovation and impact.
 
-      I am currently working on a research project with Professor Mariam Salloum at University of California, Riverside.
+      I am currently working on a research project with Professor Mariam Salloum at University of California, Riverside. 
+      
+      Some of my relevant coursework include -
+      
+      Introduction to Artificial Intelligence, Data Structures and Algorithms, Software Engineering/Construction, Data Analysis Methods, Database Management Systems, Project in Computer Science, Regression Analysis
     skills:
       enable: true
       title: "Here are a few technologies I have experience with:"
@@ -173,8 +168,10 @@ params:
         - "SQL"
         - "C++"
         - "CSS"
-        - "Version Control"
+        - "R"
         - "Javascript"
+        - "HTML"
+        - "Version Control"
 
   # Experience
   experience:
@@ -187,7 +184,7 @@ params:
         date: "June 2024 - August 2024"
         featuredLink:
           enable: true
-          name: "View the Certificate"
+          name: "View Certificate"
           url: "/Edifecs.pdf"
         content: "As an intern at Edifecs, I developed a Python and HTML-based web application for analyzing Excel data through visualizations, collaborated with the ML team to build a Llama3-powered chatbot for product query resolution, and improved NLP annotators using SQL and Regex within the UIMA framework to enhance information extraction from system-generated documents."
 
@@ -198,28 +195,22 @@ params:
 
         info:
           enable: true
-          content: I worked as an Undergrad Research Fellow.
+          content: I am working as an Undergrad Research Assistant.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          I am currently working on a research project that uses machine learning to detect AI-generated code in introductory C++ courses. By training a Random Forest classifier on a balanced dataset of student and LLM-generated submissions, we aim to support academic integrity by identifying potential cases of AI-assisted plagiarism.
       - job: "Student Research Assistant"
         company: "UCR"
         companyUrl: "https://ucr.edu"
         date: "June 2023 - August 2023"
         featuredLink:
           enable: true
-          name: "View the project"
+          name: "View Project"
           url: "/DataScience_Fellowship.pdf"
         info:
           enable: true
           content: I worked as an Undergrad Research Fellow.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          I utilized Python tools like Selenium and BeautifulSoup to extract and annotate medical data from public sources and the UMLS database. I integrated and analyzed diverse datasets to improve semantic understanding and model performance, including detecting negation using the brat annotation tool.
 
 
   # Education
@@ -228,122 +219,64 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Bachelor of Science in Data Science"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "University of California, Riverside"
+        date: "2021 - 2025"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
+          Extracurricular Activities:
+            - South Asian Federation Organization: Vice President, Representative
+               
+               Assisted the President in creating an agenda for each board meeting and directly oversaw the roles and responsibilities of all board members. Spread awareness by marketing for diﬀerent SAF events and executed a South Asian Banquet to create a sense of unity.
 
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
       - title: "High School"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "The Orchid School, Pune, India"
+          url: "https://theorchidschool.org/"
 
-  # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: FinWise
+        content: Personal Financial Dashboard - Developed a financial dashboard to manage transactions, set budgets, and generate reports using React, Express, and MongoDB. Implemented user authentication, transaction management, and financial report generation (CSV export). Contributed to backend development by writing API routes, integrating MongoDB for secure data storage, and handling transaction and budget management logic.
+        image: /images/projects/FINWISELOGO.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://drive.google.com/file/d/1uMib9JdTUdyE1bw6-IlJBGwAbiOVkJSU/view?usp=sharing
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "React"
+          - "Express"
+          - "MongoDB"
+          - "JUnit"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/rdesa020/FinWise 
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Boxed Solutions
+        content: AI Container Management System - Designed an AI system for cargo ships to optimize load/unload sequences and ship balance using the A* search algorithm. Developed web tools to visualize cargo movements and real-time manifest updates with HTML, CSS, and JavaScript. Implemented automated manifest generation and logging features for traceability and export-ready documentation.
+        image: /exampleSite/static/images/BOXEDSOLUTIONS.png
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://drive.google.com/file/d/140bsVB-KZSACe8-2zO1zli47tG0RDxfo/view?usp=sharing
         badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
+          - "A* Search Algorithm"
+          - "HTML"
           - "Javascript"
+          - "CSS"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/rdesa020/Boxed-Solutions
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    content: My inbox is always open- ritidesai03@gmail.com . Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:ritidesai03@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -359,11 +292,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/rdesa020
+      linkedin: https://www.linkedin.com/in/riti-desai/
 
   # List pages like blogs and posts
   listPages:
