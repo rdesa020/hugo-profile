@@ -49,8 +49,8 @@ markup:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Riti's Portfolio"
+  description: Check out my Portfolio
   # staticPath: ""  # The path to serve the static files from
 
 
