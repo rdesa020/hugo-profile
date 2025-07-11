@@ -153,10 +153,12 @@ params:
     title: "About Me"
 
     content: |-
-      Hello! I'm Riti Desai, a Data Science major at the University of California, Riverside, with a strong passion for computer science, statistics, software development, and technology. I have gained experience through internships and hands-on projects, where I can apply my technical skills in Python, SQL, C++, R, and user interface design. My expertise in data manipulation, analysis, and NLP has been honed through internships and research projects, and I am excited to contribute to data-driven organizations that prioritize innovation and impact.
+      Hello! I am Riti Desai, a recent graduate with a Bachelor of Science in Data Science from the University of California, Riverside. I have a strong foundation in computer science, statistics, and software development. My academic journey and industry experience have fueled my passion for building innovative, data-driven solutions that create real-world impact.
 
-      I am currently working on a research project with Professor Mariam Salloum at University of California, Riverside. 
-      
+      Through hands-on internships and research projects, I've developed technical proficiency in Python, SQL, C++, R, and front-end design, along with experience in machine learning, NLP, and data visualization. Currently, I’m contributing to impactful projects as an AI/Data Science Fellow, an Undergraduate Research Assistant at UCR, while also working on product development at FIVE10X.
+
+      I’m excited to continue applying my skills in environments that value innovation, collaboration, and meaningful insights.
+
       Some of my relevant coursework include -
       
       Introduction to Artificial Intelligence, Data Structures and Algorithms, Software Engineering/Construction, Data Analysis Methods, Database Management Systems, Project in Computer Science, Regression Analysis
@@ -178,6 +180,39 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "AI Engineering Research Fellow - UCR ITS + Google AI Studio"
+        company: "Fellowship 2"
+        companyUrl: "https://ucr.edu"
+        date: "June 2025 - Present"
+
+        info:
+          enable: true
+          content: I am working as a UCR Undergrad Research Fellow.
+        content: |
+          As a fellow, I help build a smart class schedule planner that uses student preferences, degree plans, and real-time seat data. I work on the backend using Firebase and connect university systems like DegreeWorks and Banner. I also help design a mobile-friendly, chat-style interface that makes planning classes easier for students.
+    
+      - job: "UCR Student Research Assistant"
+        company: "UCR"
+        companyUrl: "https://ucr.edu"
+        date: "March 2025 - Present"
+
+        info:
+          enable: true
+          content: I am working as an Undergrad Research Assistant.
+        content: |
+          I am currently working on a research project that uses machine learning to detect AI-generated code in introductory C++ courses. By training a Random Forest classifier on a balanced dataset of student and LLM-generated submissions, we aim to support academic integrity by identifying potential cases of AI-assisted plagiarism.
+      
+      - job: "Technical Contractor - Product Development"
+        company: "FIVE10X"
+        companyUrl:
+        date: "January 2024 - Present"
+
+        info:
+          enable: true
+          content: I am working as a part-time technical contractor.
+        content: |
+          At FIVE10X, I build machine learning models using Python, Scikit-learn, TensorFlow, and NLP to study user behavior, sentiment, and campaign results. I create dashboards with Tableau and Matplotlib to show key insights, and I work with engineers to deploy models, run A/B tests, and support better product decisions.
+
       - job: "NLP Risk Adjustment Intern"
         company: "Edifecs"
         companyUrl: "https://www.edifecs.com/"
@@ -188,18 +223,8 @@ params:
           url: "/Edifecs.pdf"
         content: "As an intern at Edifecs, I developed a Python and HTML-based web application for analyzing Excel data through visualizations, collaborated with the ML team to build a Llama3-powered chatbot for product query resolution, and improved NLP annotators using SQL and Regex within the UIMA framework to enhance information extraction from system-generated documents."
 
-      - job: "Student Research Assistant"
-        company: "UCR"
-        companyUrl: "https://ucr.edu"
-        date: "March 2025 - Present"
-
-        info:
-          enable: true
-          content: I am working as an Undergrad Research Assistant.
-        content: |
-          I am currently working on a research project that uses machine learning to detect AI-generated code in introductory C++ courses. By training a Random Forest classifier on a balanced dataset of student and LLM-generated submissions, we aim to support academic integrity by identifying potential cases of AI-assisted plagiarism.
-      - job: "Student Research Assistant"
-        company: "UCR"
+      - job: "Data Science Research Fellow - UMLS"
+        company: "Fellowship 1"
         companyUrl: "https://ucr.edu"
         date: "June 2023 - August 2023"
         featuredLink:
@@ -208,7 +233,7 @@ params:
           url: "/DataScience_Fellowship.pdf"
         info:
           enable: true
-          content: I worked as an Undergrad Research Fellow.
+          content: I worked as a UCR Undergrad Research Fellow.
         content: |
           I utilized Python tools like Selenium and BeautifulSoup to extract and annotate medical data from public sources and the UMLS database. I integrated and analyzed diverse datasets to improve semantic understanding and model performance, including detecting negation using the brat annotation tool.
 
