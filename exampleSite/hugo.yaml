@@ -180,28 +180,6 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "AI Engineering Research Fellow - UCR ITS + Google AI Studio"
-        company: "Fellowship 2"
-        companyUrl: "https://ucr.edu"
-        date: "June 2025 - Present"
-
-        info:
-          enable: true
-          content: I am working as a UCR Undergrad Research Fellow.
-        content: |
-          As a fellow, I help build a smart class schedule planner that uses student preferences, degree plans, and real-time seat data. I work on the backend using Firebase and connect university systems like DegreeWorks and Banner. I also help design a mobile-friendly, chat-style interface that makes planning classes easier for students.
-    
-      - job: "UCR Student Research Assistant"
-        company: "UCR"
-        companyUrl: "https://ucr.edu"
-        date: "March 2025 - Present"
-
-        info:
-          enable: true
-          content: I am working as an Undergrad Research Assistant.
-        content: |
-          I am currently working on a research project that uses machine learning to detect AI-generated code in introductory C++ courses. By training a Random Forest classifier on a balanced dataset of student and LLM-generated submissions, we aim to support academic integrity by identifying potential cases of AI-assisted plagiarism.
-      
       - job: "Technical Contractor - Product Development"
         company: "FIVE10X"
         companyUrl:
@@ -212,6 +190,28 @@ params:
           content: I am working as a part-time technical contractor.
         content: |
           At FIVE10X, I build machine learning models using Python, Scikit-learn, TensorFlow, and NLP to study user behavior, sentiment, and campaign results. I create dashboards with Tableau and Matplotlib to show key insights, and I work with engineers to deploy models, run A/B tests, and support better product decisions.
+
+      - job: "AI Engineering Research Fellow - UCR ITS + Google AI Studio"
+        company: "Fellowship 2"
+        companyUrl: "https://ucr.edu"
+        date: "June 2025 - August 2025"
+
+        info:
+          enable: true
+          content: I am working as a UCR Undergrad Research Fellow.
+        content: |
+          As a fellow, I’m helping build a smart scheduling assistant that creates personalized class schedules for students based on their major, completed courses, and preferences. I work on the backend using BigQuery and Google’s Agent Development Kit to power multi-agent reasoning and RAG workflows. I also contribute to designing a chat-style interface in AI Studio that makes it easy for students to explore and plan their academic paths.
+    
+      - job: "UCR Student Research Assistant"
+        company: "UCR"
+        companyUrl: "https://ucr.edu"
+        date: "March 2025 - July 2025"
+
+        info:
+          enable: true
+          content: I am working as an Undergrad Research Assistant.
+        content: |
+          I am currently working on a research project that uses machine learning to detect AI-generated code in introductory C++ courses. By training a Random Forest classifier on a balanced dataset of student and LLM-generated submissions, we aim to support academic integrity by identifying potential cases of AI-assisted plagiarism.
 
       - job: "NLP Risk Adjustment Intern"
         company: "Edifecs"
