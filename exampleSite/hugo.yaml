@@ -160,20 +160,16 @@ params:
       I’m excited to continue applying my skills in environments that value innovation, collaboration, and meaningful insights.
 
       Some of my relevant coursework include -
-      
       Introduction to Artificial Intelligence, Data Structures and Algorithms, Software Engineering/Construction, Data Analysis Methods, Database Management Systems, Project in Computer Science, Regression Analysis
-    skills:
-      enable: true
-      title: "Here are a few technologies I have experience with:"
-      items:
-        - "Python"
-        - "SQL"
-        - "C++"
-        - "CSS"
-        - "R"
-        - "Javascript"
-        - "HTML"
-        - "Version Control"
+      <br><br>
+
+      **Technologies:** 
+      <br>
+      Python, SQL, C++, R, JavaScript, HTML, CSS, Version Control 
+      <br><br> 
+      **Certifications:** 
+      <br>
+      AWS Certified Cloud Practitioner – Amazon Web Services (AWS), 2025
 
   # Experience
   experience:
