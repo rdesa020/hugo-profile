@@ -296,6 +296,21 @@ params:
           - icon: fab fa-github
             url: https://github.com/rdesa020/Boxed-Solutions
 
+      - title: DAO Dashboard – Frontend Prototype
+        content: This project is a self-initiated dashboard concept inspired by decentralized governance platforms. I built it independently during an interview process to showcase my ability to design and develop interactive front-end systems with clean data visualizations and an AI-assisted experience. The dashboard includes modules for Treasury Analytics, Proposal Management, and an AI Assistant that helps users analyze DAO performance and governance activity.
+        image:
+        featured:
+          name: Demo
+          link: https://drive.google.com/file/d/1sAc6oXA664htu0EATDgzJHHc-iOb6_Nb/view?usp=sharing
+        badges:
+          - "React (.tsx)"
+          - "CSS"
+          - "JSON"
+          - "React-ChartJS"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/rdesa020/dao-dashboard-concept
+
   #Contact
   contact:
     enable: true
