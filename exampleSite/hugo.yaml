@@ -153,27 +153,21 @@ params:
     title: "About Me"
 
     content: |-
-      Hello! I am Riti Desai, a recent graduate with a Bachelor of Science in Data Science from the University of California, Riverside. I have a strong foundation in computer science, statistics, and software development. My academic journey and industry experience have fueled my passion for building innovative, data-driven solutions that create real-world impact.
-
-      Through hands-on internships and research projects, I've developed technical proficiency in Python, SQL, C++, R, and front-end design, along with experience in machine learning, NLP, and data visualization. Currently, I’m contributing to impactful projects as an AI/Data Science Fellow, an Undergraduate Research Assistant at UCR, while also working on product development at FIVE10X.
-
-      I’m excited to continue applying my skills in environments that value innovation, collaboration, and meaningful insights.
-
-      Some of my relevant coursework include -
-      Introduction to Artificial Intelligence, Data Structures and Algorithms, Software Engineering/Construction, Data Analysis Methods, Database Management Systems, Project in Computer Science, Regression Analysis
-      <br><br>
-
-      **Technologies:** 
-      <br>
-      Python, SQL, C++, R, JavaScript, HTML, CSS, Version Control 
+      Hello! I am Riti Desai, a recent graduate with a Bachelor of Science in Data Science from the University of California, Riverside. I have a strong foundation in computer science, statistics, and software development, with a growing focus on AI systems, machine learning, and NLP driven applications. My academic journey and industry experience have fueled my passion for building intelligent, data driven solutions that create a real world impact.
+      
+      Through hands on internships and projects, I have developed technical proficiency in Python, SQL, C++, and JavaScript, along with experience in ML, NLP, RAG systems, LLM architectures, and data visualization. I am currently contributing to impactful work at FIVE10X, where I focus on ML powered marketing analytics, user behavior modeling, and dashboard driven insights for product decision making.
+      
+      I am excited to continue applying my skills in environments that value innovation, collaboration, and solving real problems with AI-driven insights.
+      
+      Some of my relevant coursework includes Introduction to Artificial Intelligence, Data Structures and Algorithms, Software Engineering/Construction, Data Analysis Methods, Database Management Systems, Regression Analysis, and Project in Computer Science.
       <br><br> 
       **Certifications:** 
       <br>
       AWS Certified Cloud Practitioner – Amazon Web Services (AWS), 2025
       <br>
-      Google Cloud BigQuery For Machine Learning — Google, 2025
+      Google Cloud BigQuery For Machine Learning - Google, 2025
       <br>
-      Databricks Generative AI Fundamentals — Databricks, 2025
+      Databricks Generative AI Fundamentals - Databricks, 2025
 
 
   # Experience
@@ -182,28 +176,34 @@ params:
     # title: "Custom Name"
     items:
       - job: "Technical Contractor - Product Development"
-        company: "FIVE10X"
-        companyUrl:
+        company: "FIVE10x"
+        companyUrl: https://www.five10x.com/
         date: "January 2024 - Present"
 
         info:
           enable: true
-          content: I am working as a part-time technical contractor.
+          content: I am working as a technical contractor.
         content: |
-          At FIVE10X, I build machine learning models using Python, Scikit-learn, TensorFlow, and NLP to study user behavior, sentiment, and campaign results. I create dashboards with Tableau and Matplotlib to show key insights, and I work with engineers to deploy models, run A/B tests, and support better product decisions.
+           I build ML and NLP models to analyze 50,000+ customer interactions from movie industry marketing campaigns, identifying sentiment and behavioral drivers and boosting audience awareness from 20% to 45%. I also design dashboards adopted across 5+ industry verticals to improve insight turnaround time by 80%, and collaborate with engineers to deploy models that reduce manual reporting by 3-4 hours per analyst per week.
 
-      - job: "AI Engineering Research Fellow - UCR ITS + Google AI Studio"
-        company: "Fellowship 2"
-        companyUrl: "https://ucr.edu"
+      - job: "AI Engineering Research Intern"
+        company: "UCR ITS"
+        companyUrl: "https://its.ucr.edu/"
         date: "June 2025 - August 2025"
 
         info:
           enable: true
-          content: I am working as a UCR Undergrad Research Fellow.
+          content: UCR Undergrad Research Intern.
+
+        featuredLink:
+          enable: true
+          name: "View Project Overview"
+          url: "https://drive.google.com/file/d/18_B3-ZxMXxmekJ9j1l3IEJ1uaQijaAuC/view"
+
         content: |
-          As a fellow, I’m helping build a smart scheduling assistant that creates personalized class schedules for students based on their major, completed courses, and preferences. I work on the backend using BigQuery and Google’s Agent Development Kit to power multi-agent reasoning and RAG workflows. I also contribute to designing a chat-style interface in AI Studio that makes it easy for students to explore and plan their academic paths.
+           I helped build a multi-agent AI Schedule Recommender using Google ADK, RAG, and BigQuery to generate personalized class schedules across 10+ majors. I contributed to backend logic for prerequisite validation and course selection, and I assisted in designing a chat-style academic planning interface that enables students to explore and build schedules intuitively.
     
-      - job: "UCR Student Research Assistant"
+      - job: "Data Science Research Assistant"
         company: "UCR"
         companyUrl: "https://ucr.edu"
         date: "March 2025 - July 2025"
@@ -211,10 +211,14 @@ params:
         info:
           enable: true
           content: I am working as an Undergrad Research Assistant.
+        featuredLink:
+          enable: true
+          name: "View"
+          url: "https://sigcse2026.sigcse.org/profile/ritidesai"
         content: |
-          I am currently working on a research project that uses machine learning to detect AI-generated code in introductory C++ courses. By training a Random Forest classifier on a balanced dataset of student and LLM-generated submissions, we aim to support academic integrity by identifying potential cases of AI-assisted plagiarism.
+           I worked on a SIGCSE 2026 publication focused on detecting AI-generated code in introductory C++ courses. Our research used a dataset of 14K+ submissions and evaluated multiple ML models, developing a Soft Voting Ensemble that achieved an F1 score of 0.995 while remaining robust under 15% noisy data.
 
-      - job: "NLP Risk Adjustment Intern"
+      - job: "Data Science Intern – NLP Risk Adjustment"
         company: "Edifecs"
         companyUrl: "https://www.edifecs.com/"
         date: "June 2024 - August 2024"
@@ -222,10 +226,26 @@ params:
           enable: true
           name: "View Certificate"
           url: "/Edifecs.pdf"
-        content: "As an intern at Edifecs, I developed a Python and HTML-based web application for analyzing Excel data through visualizations, collaborated with the ML team to build a Llama3-powered chatbot for product query resolution, and improved NLP annotators using SQL and Regex within the UIMA framework to enhance information extraction from system-generated documents."
+        content: I developed a Python and HTML-based analytics tool for automated Excel visualization, built an LLM-powered chatbot using Llama 3, Ollama, and ChromaDB with a Streamlit UI to help engineers understand 11+ Edifecs products faster, and refined NLP annotators using SQL and Regex in the UIMA framework to improve evidence extraction accuracy.
 
-      - job: "Data Science Research Fellow - UMLS"
-        company: "Fellowship 1"
+
+      - job: "Webacy Blockchain and Web3 Security Research Extern"
+        company: "Webacy"
+        companyUrl: "https://www.webacy.com/"
+        date: "March 2024 - April 2024"
+        featuredLink:
+          enable: true
+          name: "View Certificate"
+          url: "/Webacy.pdf"
+        info:
+          enable: true
+          content: I worked as a Webacy Extern.
+        content: |
+          Conducted blockchain and Web3 security research during a 4-week externship at Webacy, analyzing emerging technologies and competitor offerings to inform product positioning and strengthen market strategy.
+
+
+      - job: "Data Science Research Intern"
+        company: "PiLabs"
         companyUrl: "https://ucr.edu"
         date: "June 2023 - August 2023"
         featuredLink:
@@ -234,9 +254,9 @@ params:
           url: "/DataScience_Fellowship.pdf"
         info:
           enable: true
-          content: I worked as a UCR Undergrad Research Fellow.
+          content: I worked as a UCR Undergrad Research Intern.
         content: |
-          I utilized Python tools like Selenium and BeautifulSoup to extract and annotate medical data from public sources and the UMLS database. I integrated and analyzed diverse datasets to improve semantic understanding and model performance, including detecting negation using the brat annotation tool.
+          Scraped and processed 100,000+ medical concepts from UMLS and public sources using Python, Selenium, and BeautifulSoup to support semantic modeling research. In a related study, annotated clinical text using the BRAT tool to improve negation and terminology detection, contributing to enhanced medical NLP performance.
 
 
   # Education
@@ -250,15 +270,13 @@ params:
           name: "University of California, Riverside"
         date: "2021 - 2025"
         content: |-
-          Extracurricular Activities:
-            - South Asian Federation Organization: Vice President, Representative
-               
-               Assisted the President in creating an agenda for each board meeting and directly oversaw the roles and responsibilities of all board members. Spread awareness by marketing for diﬀerent SAF events and executed a South Asian Banquet to create a sense of unity.
+          Dean's Honors List — Spring 2024
 
-      - title: "High School"
-        school:
-          name: "The Orchid School, Pune, India"
-          url: "https://theorchidschool.org/"
+          Relevant Coursework: Introduction to Artificial Intelligence, Data Structures and Algorithms, Software Engineering/Construction, Data Analysis Methods, Database Management Systems, Regression Analysis, Project in Computer Science.
+          Extracurricular Activities:
+          - South Asian Federation Organization — Vice President & Representative
+
+            Led agenda planning for executive board meetings, coordinated responsibilities across all board members, and organized large-scale cultural events such as the South Asian Banquet to promote unity and community engagement.
 
 
   # projects
