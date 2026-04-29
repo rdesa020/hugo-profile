@@ -117,7 +117,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: true
+      disableAchievements: false
       disableContact: false
 
   # Hero
@@ -125,9 +125,9 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Riti Desai."
-    subtitle: "Data enthusiast driven by curiosity and impact"
-    content: "A data-driven thinker. I enjoy exploring datasets, building models, and discovering the insights hidden within."
-    image: "/static/images/Riti_Portfolio_picture.jpg"
+    subtitle: "AI engineer driven by<br>curiosity and impact"
+    content: "I enjoy building LLM-powered systems, designing intelligent agents, and figuring out how AI actually works under the hood."
+    image: "/ritiphoto.jpg"
     imageShape: "side"  # or "side", depending on the theme options
 
     #bottomImage:
@@ -153,21 +153,15 @@ params:
     title: "About Me"
 
     content: |-
-      Hello! I am Riti Desai, a recent graduate with a Bachelor of Science in Data Science from the University of California, Riverside. I have a strong foundation in computer science, statistics, and software development, with a growing focus on AI systems, machine learning, and NLP driven applications. My academic journey and industry experience have fueled my passion for building intelligent, data driven solutions that create a real world impact.
-      
-      Through hands on internships and projects, I have developed technical proficiency in Python, SQL, C++, and JavaScript, along with experience in ML, NLP, RAG systems, LLM architectures, and data visualization. I am currently contributing to impactful work at FIVE10X, where I focus on ML powered marketing analytics, user behavior modeling, and dashboard driven insights for product decision making.
-      
-      I am excited to continue applying my skills in environments that value innovation, collaboration, and solving real problems with AI-driven insights.
-      
-      Some of my relevant coursework includes Introduction to Artificial Intelligence, Data Structures and Algorithms, Software Engineering/Construction, Data Analysis Methods, Database Management Systems, Regression Analysis, and Project in Computer Science.
-      <br><br> 
-      **Certifications:** 
-      <br>
-      AWS Certified Cloud Practitioner – Amazon Web Services (AWS), 2025
-      <br>
-      Google Cloud BigQuery For Machine Learning - Google, 2025
-      <br>
-      Databricks Generative AI Fundamentals - Databricks, 2025
+      Hello! I'm Riti Desai, a recent Data Science graduate from UC Riverside and an incoming AI student at University of Pennsylvania. I have a strong foundation in computer science, statistics, and software development, with a deep interest in AI systems, large language models, and building things that actually work in the real world.
+
+      My academic journey and the work I've done across startups, research labs, and enterprise teams have shaped how I think about problems. I don't just want to use AI - I want to understand how it works under the hood, where it breaks, and how to make it better. That curiosity is what's driven me from my first Python class all the way to working on production LLM systems, multi-agent pipelines, and ML research that got published.
+
+      Technically, I'm comfortable across Python, SQL, C++, JavaScript, and R, and I've built real experience with LLM applications, RAG systems, text embeddings, multi-agent architectures, and data pipelines. I enjoy working at the intersection of research and engineering - where you have to both think deeply and build quickly.
+
+      Outside of work, I care a lot about building things that solve everyday problems, not just impressive-sounding demos. If something can be made smarter, faster, or more useful with AI, I want to figure out how.
+
+      I'm always open to connecting - whether you have a question, want to collaborate, or just want to talk about something interesting happening in AI.
 
 
   # Experience
@@ -184,7 +178,7 @@ params:
           enable: true
           content: I am working as a technical contractor.
         content: |
-           I build ML and NLP models to analyze 50,000+ customer interactions from movie industry marketing campaigns, identifying sentiment and behavioral drivers and boosting audience awareness from 20% to 45%. I also design dashboards adopted across 5+ industry verticals to improve insight turnaround time by 80%, and collaborate with engineers to deploy models that reduce manual reporting by 3-4 hours per analyst per week.
+           I build ML models and text embeddings to analyze 50,000+ customer interactions from movie industry marketing campaigns, identifying sentiment and behavioral drivers and boosting audience awareness from 20% to 45%. I also design dashboards adopted across 5+ industry verticals to improve insight turnaround time by 80%, and collaborate with engineers to deploy models that reduce manual reporting by 3-4 hours per analyst per week. Built an NL2SQL chatbot using OpenAI models that converts natural language questions into SQL queries, enabling non-technical users to explore databases and generate insights without writing SQL.
 
       - job: "AI Engineering Research Intern"
         company: "UCR ITS"
@@ -201,7 +195,7 @@ params:
           url: "https://drive.google.com/file/d/18_B3-ZxMXxmekJ9j1l3IEJ1uaQijaAuC/view"
 
         content: |
-           I helped build a multi-agent AI Schedule Recommender using Google ADK, RAG, and BigQuery to generate personalized class schedules across 10+ majors. I contributed to backend logic for prerequisite validation and course selection, and I assisted in designing a chat-style academic planning interface that enables students to explore and build schedules intuitively.
+           I built a multi-agent AI Schedule Recommender using Google ADK, RAG, and BigQuery to generate personalized class schedules across 10+ majors. I contributed to backend logic for prerequisite validation and course selection, and I assisted in designing a chat-style academic planning interface that enables students to explore and build schedules intuitively.
     
       - job: "Data Science Research Assistant"
         company: "UCR"
@@ -265,6 +259,11 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "Master of Science in Engineering in Artificial Intelligence"
+        school:
+          name: "University of Pennsylvania, Penn Engineering"
+        date: "2026 - 2028"
+
       - title: "Bachelor of Science in Data Science"
         school:
           name: "University of California, Riverside"
@@ -278,6 +277,27 @@ params:
 
             Led agenda planning for executive board meetings, coordinated responsibilities across all board members, and organized large-scale cultural events such as the South Asian Banquet to promote unity and community engagement.
 
+
+  # Certifications
+  achievements:
+    enable: true
+    title: "Certifications"
+    items:
+      - title: AWS Certified Cloud Practitioner
+        content: Amazon Web Services (AWS)
+        url: https://www.credly.com/badges/1c7cf6eb-d577-44cf-8c52-ec45cc724342/linked_in_profile
+
+      - title: Databricks — Generative AI Fundamentals
+        content: Databricks
+        url: https://credentials.databricks.com/d571ebb1-a8a1-4d21-9457-307190ab8718#acc.NV5Biudc
+
+      - title: Google Cloud — BigQuery for Machine Learning
+        content: Google Cloud
+        url: https://www.skills.google/public_profiles/801b0836-c9a2-44c8-b817-a935154c7866/badges/19672847
+
+      - title: IBM — Develop Generative AI Applications
+        content: IBM
+        url: https://www.credly.com/badges/8b390c36-5155-433a-b248-d664954471de/public_url
 
   # projects
   projects:
