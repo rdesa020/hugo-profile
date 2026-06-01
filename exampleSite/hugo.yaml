@@ -153,7 +153,7 @@ params:
     title: "About Me"
 
     content: |-
-      Hello! I'm Riti Desai, a recent Data Science graduate from UC Riverside and an incoming AI student at University of Pennsylvania. I have a strong foundation in computer science, statistics, and software development, with a deep interest in AI systems, large language models, and building things that actually work in the real world.
+      Hello! I'm Riti Desai, a recent Data Science graduate from UC Riverside and currently pursuing my Master of Science in AI at the University of Pennsylvania. I have a strong foundation in computer science, statistics, and software development, with a deep interest in AI systems, large language models, and building things that actually work in the real world.
 
       My academic journey and the work I've done across startups, research labs, and enterprise teams have shaped how I think about problems. I don't just want to use AI - I want to understand how it works under the hood, where it breaks, and how to make it better. That curiosity is what's driven me from my first Python class all the way to working on production LLM systems, multi-agent pipelines, and ML research that got published.
 
@@ -178,7 +178,7 @@ params:
           enable: true
           content: I am working as a technical contractor.
         content: |
-           I build ML models and text embeddings to analyze 50,000+ customer interactions from movie industry marketing campaigns, identifying sentiment and behavioral drivers and boosting audience awareness from 20% to 45%. I also design dashboards adopted across 5+ industry verticals to improve insight turnaround time by 80%, and collaborate with engineers to deploy models that reduce manual reporting by 3-4 hours per analyst per week. Built an NL2SQL chatbot using OpenAI models that converts natural language questions into SQL queries, enabling non-technical users to explore databases and generate insights without writing SQL.
+           I build ML models and text embeddings to analyze 50,000+ customer interactions from movie industry marketing campaigns, identifying sentiment and behavioral drivers and boosting audience awareness from 20% to 45%. I also design dashboards adopted across 5+ industry verticals to improve insight turnaround time by 80%, and collaborate with engineers to deploy models that reduce manual reporting by 3-4 hours per analyst per week. Built an NL2SQL chatbot using OpenAI models that converts natural language questions into SQL queries, enabling non-technical users to explore databases and generate insights without writing SQL. Built a full stack internal bug tracking and ticketing system with three user portals using Node.js, Express, Google Sheets API, and Google Drive API, deployed on Railway with GitHub CI/CD.
 
       - job: "AI Engineering Research Intern"
         company: "UCR ITS"
@@ -304,6 +304,16 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: NL2SQL Chatbot
+        content: Built an NL2SQL chatbot using OpenAI API, Node.js, React, and MSSQL that lets non technical users type plain English questions and get answers directly from a live SQL database. Connects to multiple databases covering SMS campaigns, survey data, and movie industry data. Users can query millions of rows without writing a single line of SQL.
+        image:
+        badges:
+          - "OpenAI API"
+          - "Node.js"
+          - "React"
+          - "MSSQL"
+          - "JavaScript"
+
       - title: FinWise
         content: Personal Financial Dashboard - Developed a financial dashboard to manage transactions, set budgets, and generate reports using React, Express, and MongoDB. Implemented user authentication, transaction management, and financial report generation (CSV export). Contributed to backend development by writing API routes, integrating MongoDB for secure data storage, and handling transaction and budget management logic.
         image: /images/projects/FINWISELOGO.png
@@ -317,7 +327,7 @@ params:
           - "JUnit"
         links:
           - icon: fab fa-github
-            url: https://github.com/rdesa020/FinWise 
+            url: https://github.com/rdesa020/FinWise
 
       - title: Boxed Solutions
         content: AI Container Management System - Designed an AI system for cargo ships to optimize load/unload sequences and ship balance using the A* search algorithm. Developed web tools to visualize cargo movements and real-time manifest updates with HTML, CSS, and JavaScript. Implemented automated manifest generation and logging features for traceability and export-ready documentation.
@@ -348,6 +358,27 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/rdesa020/dao-dashboard-concept
+
+      - title: Drive Dashboard
+        content: Built a single file web app using vanilla JavaScript and Google Drive API v3 that visualizes Drive files, permissions, and sharing settings. Features two phase loading, incremental sync via the Drive Changes API, and client side filtering, sorting, and search running entirely in memory with no server or database needed. Deployed on GitHub Pages.
+        image:
+        badges:
+          - "JavaScript"
+          - "Google Drive API"
+          - "Google Identity Services"
+          - "GitHub Pages"
+
+      - title: Ticket Portal
+        content: Built a full stack internal ticketing system with three separate user portals for clients, admins, and a customer care team. Built on Node.js and Express with Google Sheets as the database layer and Google Drive for file storage. Features threaded comments, file uploads via Multer, stateless auth, self healing schema bootstrap, and an analytics tab. Deployed on Railway with GitHub CI/CD auto deploy on every push.
+        image:
+        badges:
+          - "Node.js"
+          - "Express"
+          - "Google Sheets API"
+          - "Google Drive API"
+          - "Railway"
+          - "GitHub CI/CD"
+          - "JavaScript"
 
   #Contact
   contact:
