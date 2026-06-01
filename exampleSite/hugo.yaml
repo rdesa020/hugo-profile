@@ -367,6 +367,9 @@ params:
           - "Google Drive API"
           - "Google Identity Services"
           - "GitHub Pages"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/rdesa020/drive-dashboard
 
       - title: Ticket Portal
         content: Built a full stack internal ticketing system with three separate user portals for clients, admins, and a customer care team. Built on Node.js and Express with Google Sheets as the database layer and Google Drive for file storage. Features threaded comments, file uploads via Multer, stateless auth, self healing schema bootstrap, and an analytics tab. Deployed on Railway with GitHub CI/CD auto deploy on every push.
