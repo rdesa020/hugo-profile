@@ -318,8 +318,8 @@ params:
         content: Personal Financial Dashboard - Developed a financial dashboard to manage transactions, set budgets, and generate reports using React, Express, and MongoDB. Implemented user authentication, transaction management, and financial report generation (CSV export). Contributed to backend development by writing API routes, integrating MongoDB for secure data storage, and handling transaction and budget management logic.
         image: /images/projects/FINWISELOGO.png
         featured:
-          name: Demo
-          link: https://drive.google.com/file/d/1uMib9JdTUdyE1bw6-IlJBGwAbiOVkJSU/view?usp=sharing
+          name: Preview
+          link: /FINWISE preview.pdf
         badges:
           - "React"
           - "Express"
@@ -328,6 +328,8 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/rdesa020/FinWise
+          - icon: fa fa-external-link-alt
+            url: https://finwise-production-d87f.up.railway.app
 
       - title: Boxed Solutions
         content: AI Container Management System - Designed an AI system for cargo ships to optimize load/unload sequences and ship balance using the A* search algorithm. Developed web tools to visualize cargo movements and real-time manifest updates with HTML, CSS, and JavaScript. Implemented automated manifest generation and logging features for traceability and export-ready documentation.
