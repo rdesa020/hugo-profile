@@ -361,6 +361,22 @@ params:
           - icon: fab fa-github
             url: https://github.com/rdesa020/dao-dashboard-concept
 
+      - title: RIA Inbox Assistant
+        content: AI-powered email triage tool for boutique RIA financial advisors that turns a messy client inbox into a prioritized, actionable list in seconds. Built with FastAPI and Claude Haiku, the tool classifies each email by urgency and category, summarizes the client's situation, suggests a specific advisor action, and drafts a fiduciary-appropriate reply. Implemented parallel batch processing with Python asyncio to cut a 30-second sequential analysis down to 10 seconds, with results streamed live to the frontend via Server-Sent Events. Includes a task queue, AI-powered draft transformations (shorten, expand, rewrite, formalize), and full-text search across client, topic, urgency, and sentiment. Deployed on Render as a single service serving both frontend and API.
+        image:
+        featured:
+          name: Live App
+          link: https://ria-inbox-assistant.onrender.com/
+        badges:
+          - "FastAPI"
+          - "Claude API"
+          - "Python (asyncio)"
+          - "HTML/CSS/JS"
+          - "Server-Sent Events"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/rdesa020/registered-investment-advisor-inbox-assistant
+
       - title: Drive Dashboard
         content: Built a single file web app using vanilla JavaScript and Google Drive API v3 that visualizes Drive files, permissions, and sharing settings. Features two phase loading, incremental sync via the Drive Changes API, and client side filtering, sorting, and search running entirely in memory with no server or database needed. Deployed on GitHub Pages.
         image:
